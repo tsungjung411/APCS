@@ -3,7 +3,7 @@
  - https://apcs.csie.ntnu.edu.tw/
  
 ## APCS 題解說明
- - 程式設計觀念題
+ - [程式設計觀念題](master/程式設計觀念題)
  - 程式設計實作題
    - 線上撰寫程式碼
      - C: https://rextester.com/l/c_online_compiler_gcc
