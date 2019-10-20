@@ -3,9 +3,16 @@
  - https://apcs.csie.ntnu.edu.tw/
  
 ## APCS 題解說明
- - [程式設計觀念題](程式設計觀念題)
- - [程式設計實作題](程式設計實作題)
-   - 線上撰寫程式碼
+ - ### [程式設計觀念題](程式設計觀念題)
+   - 作答時間：總共 50 分鐘，共 25 題
+     <br>平均每題花費時間，不超過 2 分鐘，要用快速淘汰法
+     <br>
+ - ### [程式設計實作題](程式設計實作題)
+   - 作答時間：總共 140 分鐘 (2小時又20分)，共 4 大題
+     <br>平均每題花費時間，不超過 35 分鐘
+     <br>演算法要事先決定好，若要在改寫，該題可能就無法完成
+     <br>
+   - 線上練習撰寫程式碼
      - C: https://rextester.com/l/c_online_compiler_gcc
      - C#: https://rextester.com/l/csharp_online_compiler
      - Python: https://rextester.com/l/python3_online_compiler
