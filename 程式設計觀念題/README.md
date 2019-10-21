@@ -1,5 +1,8 @@
 ## 試題範本
 - https://apcs.csie.ntnu.edu.tw/index.php/questionstypes/previousexam/
+  - [2017-03-04_觀念題_試題下載](https://apcs.csie.ntnu.edu.tw/wp-content/uploads/2018/12/1060304APCSconcept.pdf)
+  - [2016-10-29_觀念題_試題下載](https://apcs.csie.ntnu.edu.tw/wp-content/uploads/2018/12/1051029APCSconcept.pdf)
+  - [2016-03-05_觀念題_試題下載](https://apcs.csie.ntnu.edu.tw/wp-content/uploads/2018/12/1050305APCSconcept.pdf)
 
 <br>
 
