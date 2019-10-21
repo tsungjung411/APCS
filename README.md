@@ -1,5 +1,5 @@
-## APCS
- - APCS大學程式設計先修檢測
+## APCS (Advanced Placement Computer Science)
+ - APCS 大學程式設計先修檢測
  - https://apcs.csie.ntnu.edu.tw/
  
 ## APCS 題解說明
