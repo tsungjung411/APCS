@@ -4,12 +4,19 @@
  
 ## APCS 題解說明
  - ### [程式設計觀念題](程式設計觀念題)
+   - [測驗題型](https://apcs.csie.ntnu.edu.tw/index.php/questionstypes/)
+     - 程式運行追蹤 (code tracing)
+     - 程式填空 (code completion)
+     - 程式除錯 (code debugging)
+     - 程式效能分析 (code performance analysis)
+     - 基礎觀念理解 (basic concepts understanding) 
    - 作答時間：總共 50 分鐘，共 25 題
-     <br>平均每題花費時間，不超過 2 分鐘，要用快速淘汰法
+     <br><b style="color: red">平均每題花費時間，不超過 2 分鐘，要用快速淘汰法</b>
      <br>
  - ### [程式設計實作題](程式設計實作題)
+   - [測驗題型](https://apcs.csie.ntnu.edu.tw/index.php/questionstypes/)
    - 作答時間：總共 140 分鐘 (2小時又20分)，共 4 大題
-     <br>平均每題花費時間，不超過 35 分鐘
+     <br><b>平均每題花費時間，不超過 35 分鐘</b>
      <br>演算法要事先決定好，若要在改寫，該題可能就無法完成
      <br>
    - 線上練習撰寫程式碼
