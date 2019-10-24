@@ -42,8 +42,8 @@
     [       123] -> [123       ](0000000123)
     [       123] -> [123       ](0000000123)
     ```
-<br>
-<br>
+    <br>
+    <br>
 - ### C# 實作
     - 線上測試 https://rextester.com/l/csharp_online_compiler
     ```C#
