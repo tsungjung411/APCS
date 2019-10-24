@@ -1,33 +1,48 @@
-### 輸入 / 輸出
+## 輸入 / 輸出
+- ### 輸入資料
+    ```
+    abc   123   3.1415926535
+    ```
 
-## C# 實作
-- 線上測試 https://rextester.com/l/csharp_online_compiler
-```C#
-using System;
+- ### C# 實作
+    - 線上測試 https://rextester.com/l/csharp_online_compiler
+    ```C#
+    using System;
 
-namespace Rextester
-{
-    public class Program
+    namespace Rextester
     {
-        public static void Main(string[] args)
+        public class Program
         {
-            // read one line
-            string line = Console.ReadLine();
-            Console.WriteLine("line={0}", line);
-            Console.WriteLine();
-            
-            string[] tokens = line.Split(new char[]{' '}, System.StringSplitOptions.RemoveEmptyEntries);
-            for (int i = 0; i < tokens.Length; i++) {
-                Console.WriteLine("tokens[{0}] = \"{1}\"", i, tokens[i]);
+            public static void Main(string[] args)
+            {
+                // read one line
+                string line = Console.ReadLine();
+                Console.WriteLine("line={0}", line);
+                Console.WriteLine();
+
+                string[] tokens = line.Split(new char[]{' '}, System.StringSplitOptions.RemoveEmptyEntries);
+                for (int i = 0; i < tokens.Length; i++) {
+                    Console.WriteLine("tokens[{0}] = \"{1}\"", i, tokens[i]);
+                }
+                Console.WriteLine();
+
+                int num = Int32.Parse(tokens[1]);
+                Console.WriteLine("[{0,10:}] -> [{1,-10}]({1:D10})", tokens[1], num);
+
+                double pi = double.Parse(tokens[2]);
+                Console.WriteLine("[{0}] -> [{1,-10:F3}]()", tokens[2], pi);
             }
-            Console.WriteLine();
-            
-            int num = Int32.Parse(tokens[1]);
-            Console.WriteLine("[{0,10:}] -> [{1,-10}]({1:D10})", tokens[1], num);
-            
-            double pi = double.Parse(tokens[2]);
-            Console.WriteLine("[{0}] -> [{1,-10:F3}]()", tokens[2], pi);
         }
     }
-}
-```
+    ```
+    輸出結果：
+    ```
+    line=abc   123   3.1415926535
+
+    tokens[0] = "abc"
+    tokens[1] = "123"
+    tokens[2] = "3.1415926535"
+
+    [       123] -> [123       ](0000000123)
+    [3.1415926535] -> [31415926535,000]()
+    ```
