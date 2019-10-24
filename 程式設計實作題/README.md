@@ -4,7 +4,7 @@
 - Java
 - Python
 
-## 常見 輸入&輸出 範例
+## [考前複習] 輸入&輸出 範例
 - ### 輸入資料
     ```
     abc   123   3.14159265
@@ -23,7 +23,7 @@
     <br>
     <br>
 - ### 使用 Python3 實作
-    ```
+    ```python3
     # read one line
     line = input()
     print('line="%s"' % line)
