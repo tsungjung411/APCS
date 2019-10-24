@@ -23,7 +23,7 @@
     ```
     <br>
     <br>
-- ### 使用 Python3 實作
+- ### 使用 Python3 實作 (python 有兩種不同的輸出方法)
     ```python3
     # read one line
     line = input()
