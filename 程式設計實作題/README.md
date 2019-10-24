@@ -1,4 +1,10 @@
-## 輸入 / 輸出
+## [目前 APCS 支援的軟體](https://apcs.csie.ntnu.edu.tw/index.php/info/environment/)
+- C (C99語法)
+- C++ (2011版本)
+- Java
+- Python
+
+## 常見 輸入&輸出 範例
 - ### 輸入資料
     ```
     abc   123   3.14159265
