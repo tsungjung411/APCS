@@ -26,6 +26,32 @@
     ```
     <br>
     <br>
+- ### 使用 C 實作
+    - 線上測試：https://rextester.com/l/c_online_compiler_gcc
+    ```c
+    //gcc 5.4.0
+
+    #include  <stdio.h>
+    #include  <string.h>
+    int main(void)
+    {
+        char line[100];
+        gets(line );
+        printf("line = \"%s\"\n", line);
+
+        printf("%s", strtok(line, " "));
+
+        //char token[100];
+        //int num;
+        //float pi;
+        //scanf("%s %d %f", token, &num, &pi);
+        //printf("%s %d %f\n", token, num, pi);
+
+        return 0;
+    }
+    ```
+    <br>
+    <br>
 - ### 使用 Python3 實作 (python 有兩種不同的輸出方法)
     - 線上測試：https://rextester.com/l/python3_online_compiler
     ```python3
