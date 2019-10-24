@@ -9,7 +9,41 @@
     ```
     abc   123   3.14159265
     ```
+- ### Python
+    ```
+    # read one line
+    line = input()
+    print('line="%s"' % line)
+    print('line="{0}"'.format(line))
+    print()
 
+    tokens = line.split()
+    for i in range(0, len(tokens)) :
+        print("tokens[%d] = \"%s\"" % (i, tokens[i]))
+        print('tokens[{0:d}] = "{1:s}"'.format(i, tokens[i]))
+    print();
+
+    num = int(tokens[1])
+    print('[%10s] -> [%-10d](%010d)' % (tokens[1], num, num))
+    print('[{0:>10s}] -> [{1:<10d}]({1:010d})'.format(tokens[1], num))
+    ```
+    輸出結果：
+    ```
+    line="abc   123   3.14159265"
+    line="abc   123   3.14159265"
+
+    tokens[0] = "abc"
+    tokens[0] = "abc"
+    tokens[1] = "123"
+    tokens[1] = "123"
+    tokens[2] = "3.14159265"
+    tokens[2] = "3.14159265"
+
+    [       123] -> [123       ](0000000123)
+    [       123] -> [123       ](0000000123)
+    ```
+<br>
+<br>
 - ### C# 實作
     - 線上測試 https://rextester.com/l/csharp_online_compiler
     ```C#
