@@ -12,7 +12,7 @@
     ```
 - ### 輸出資料
     ```
-    line=abc   123  3.14159265
+    line="abc   123  3.14159265"
 
     tokens[0] = "abc"
     tokens[1] = "123"
@@ -24,6 +24,7 @@
     <br>
     <br>
 - ### 使用 Python3 實作 (python 有兩種不同的輸出方法)
+    - 線上測試：https://rextester.com/l/python3_online_compiler
     ```python3
     # read one line
     line = input()
@@ -80,7 +81,7 @@
             {
                 // read one line
                 string line = Console.ReadLine();
-                Console.WriteLine("line={0}", line);
+                Console.WriteLine("line=\"{0}\"", line);
                 Console.WriteLine();
 
                 // parse tokens
