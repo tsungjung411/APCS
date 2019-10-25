@@ -20,8 +20,9 @@
      <br>演算法要事先決定好，若要在改寫，該題可能就無法完成
      <br>
    - 線上練習撰寫程式碼
-     - C: https://rextester.com/l/c_online_compiler_gcc
+     - C (gcc): https://rextester.com/l/c_online_compiler_gcc
      - C#: https://rextester.com/l/csharp_online_compiler
+     - C++ (gcc): https://rextester.com/l/cpp_online_compiler_gcc
      - Python: https://rextester.com/l/python3_online_compiler
      - Java: https://rextester.com/l/java_online_compiler
      
