@@ -52,6 +52,58 @@
     ```
     <br>
     <br>
+- ### 使用 Java 實作 (基本上，都跟 C 相同)
+    - 線上測試：https://rextester.com/l/java_online_compiler
+    ```java
+    //'main' method must be in a class 'Rextester'.
+    //Compiler version 1.8.0_111
+
+    import java.util.*;
+    import java.lang.*;
+
+    class Rextester
+    {  
+        public static void main(String args[])
+        {
+            Scanner scanner = new Scanner(System.in);
+            String line = scanner.nextLine();
+            System.out.println("line=\"" + line + "\"");
+            System.out.println(String.format("line=\"%s\"", line));
+            System.out.println();
+
+            String regex = "\\s+";
+            String[] tokens = line.split(regex);
+            System.out.println("tokens[0] = \"" + tokens[0] + "\"");
+            System.out.println("tokens[1] = \"" + tokens[1] + "\"");
+            System.out.println("tokens[2] = \"" + tokens[2] + "\"");
+            System.out.println();
+
+            int num = Integer.parseInt(tokens[1]);
+            System.out.println(String.format("[%10d] -> [%-10d](%010d)", num, num, num));
+            double pi = Double.parseDouble(tokens[2]);
+            System.out.println(String.format("[%10f] -> [%-10.3f]", pi, pi));
+
+            java.text.DecimalFormat dFormat = new java.text.DecimalFormat("0.00000000");
+            String piInStr = dFormat.format(pi);
+            System.out.println(String.format("[%s] -> [%-10.3f]", piInStr, pi));
+        }
+    }
+    ```
+    輸出結果：
+    ```
+    line="abc   123   3.14159265"
+    line="abc   123   3.14159265"
+
+    tokens[0] = "abc"
+    tokens[1] = "123"
+    tokens[2] = "3.14159265"
+
+    [       123] -> [123       ](0000000123)
+    [  3.141593] -> [3.142     ]
+    [3.14159265] -> [3.142     ]
+    ```
+    <br>
+    <br>
 - ### 使用 Python3 實作 (python 有兩種不同的輸出方法)
     - 線上測試：https://rextester.com/l/python3_online_compiler
     ```python3
